@@ -1,11 +1,12 @@
-import 'package:eperpus/models/models.dart';
 import 'package:eperpus/services/services.dart';
 import 'package:flutter/material.dart';
+import 'package:device_apps/device_apps.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:provider/provider.dart';
-import 'package:device_apps/device_apps.dart';
-import 'package:flutter_svg/flutter_svg.dart';
-// import 'package:carousel_pro/carousel_pro.dart';
-import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
-import 'package:eperpus/shared/shared.dart';
-import 'package:carousel_slider/carousel_slider.dart';
+
+part 'sign_in_pages.dart';
+part 'sign_up_pages.dart';
+part 'check_email.dart';
+part 'reset_password.dart';
+part 'home.dart';
+part 'wrapper.dart';
